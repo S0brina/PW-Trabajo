@@ -1,0 +1,138 @@
+
+    body {
+    font-family:'Times New Roman', Times, serif;
+    padding: 50px;
+    }
+    
+    .login {
+      margin: 20px auto;
+      width: 300px;
+      text-align: center;
+      }
+
+    .login-screen {
+      background-color: #d2ffb7;
+      padding: 20px;
+      border-radius: 5px
+    }
+      
+    .app-title {
+      text-align: center;
+      color: #777;
+    }
+      
+    .login-form {
+      text-align: center;
+    }
+    .control-group {
+      margin-bottom: 10px;
+    }
+      
+    input {
+      text-align: center;
+      background-color: #ECF0F1;
+      border: 2px solid transparent;
+      border-radius: 3px;
+      font-size: 16px;
+      font-weight: 200;
+      padding: 10px 0;
+      width: 250px;
+      transition: border .5s;
+    }
+      
+    input:focus {
+      border: 2px solid #3498DB;
+      box-shadow: none;
+    }
+
+    .titulo{
+      text-align: left;
+      margin: 20px;
+    }
+
+    .menu-screen {
+    margin: 20px auto;
+    width: 300px;
+    }
+    .categoria-title {
+      background-color: rgb(255, 255, 255);
+      padding: 15px;
+      border-radius: 5px;
+    }
+   
+    .app-title {
+    text-align: center;
+    color: #777;
+    }
+   
+    .plato-info {
+    text-align: center;
+    }
+   
+
+    .btn{
+      background-color: #adf480;
+      color: #ffffff;
+      border-color: #adf480;
+    }
+
+    .btnagr {
+      border: 2px solid transparent;
+      background: #adf480;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 3px auto ;
+    }
+   
+    .btn:hover , .btnagr:hover {
+      background-color: #81f151;
+      border-color: #81f151;
+    }
+   
+    .password-link {
+      font-size: 12px;
+      color: #444;
+      display: block;
+      margin-top: 12px;
+    }
+ 
+    img{
+        float: center;
+        width: 150px;
+        height: 150px;
+        image-resolution: 10;
+    }
+
+    .container-carrito{
+      height: 900px;
+      padding-top: 12px;
+      width: 700px;
+      background-color: #ffffff33;
+      margin: auto;
+
+    }
+
+    .container-pizzas{
+      height: 900px;
+      padding-top: 12px;
+      background-color: #dfffcc;
+
+    }
+
+    .table-esp{
+      width: 500px;
+      align-self: center;
+      margin: auto;
+      margin-top: 30px;
+      background-color: #ffffff;
+
+    }
