@@ -1,138 +1,197 @@
 
     body {
-    font-family:'Times New Roman', Times, serif;
-    padding: 50px;
-    }
-    
-    .login {
-      margin: 20px auto;
-      width: 300px;
-      text-align: center;
+      font-family:'Times New Roman', Times, serif;
+      padding: auto;
       }
-
-    .login-screen {
-      background-color: #d2ffb7;
-      padding: 20px;
-      border-radius: 5px
-    }
       
-    .app-title {
+      header{
+        background-color: rgb(255, 255, 255, 0.68);
+        width: auto;
+        margin: auto;
+        padding: 15px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+  
+      .login {
+        margin: 20px auto;
+        width: 300px;
+        text-align: center;
+        }
+  
+      .login-screen {
+        background-color: #d2ffb7;
+        padding: 20px;
+        border-radius: 5px
+      }
+        
+      .app-title {
+        text-align: center;
+        color: #777;
+      }
+        
+      .login-form {
+        text-align: center;
+      }
+      .control-group {
+        margin-bottom: 10px;
+      }
+        
+      input {
+        text-align: center;
+        background-color: #ECF0F1;
+        border: 2px solid transparent;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 200;
+        padding: 10px 0;
+        width: 250px;
+        transition: border .5s;
+      }
+        
+      input:focus {
+        border: 2px solid #3498DB;
+        box-shadow: none;
+      }
+  
+      .titulo{
+        text-align: left;
+        margin: 20px;
+        color:rgb(0, 0, 0);
+        background-color: white;
+      }
+  
+      .menu-screen {
+      margin: 10px auto;
+      width: 300px;
+      }
+  
+      .categoria-title {
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        border-radius: 30px;
+      }
+     
+      .app-title {
       text-align: center;
       color: #777;
-    }
-      
-    .login-form {
+      }
+     
+      .plato-info {
       text-align: center;
+      }
+     
+  
+      .btn{
+        background-color: #adf480;
+        color: #ffffff;
+        border-color: #adf480;
+      }
+  
+      .btnagr {
+        border: 2px solid transparent;
+        background: #adf480;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 0;
+        text-decoration: none;
+        text-shadow: none;
+        border-radius: 3px;
+        box-shadow: none;
+        transition: 0.25s;
+        display: block;
+        width: 250px;
+        margin: 3px auto ;
+      }
+     
+      .btn:hover , .btnagr:hover {
+        background-color: #81f151;
+        border-color: #81f151;
+      }
+     
+      .password-link {
+        font-size: 12px;
+        color: #444;
+        display: block;
+        margin-top: 12px;
+      }
+   
+      img{
+          float: center;
+          width: 150px;
+          height: 150px;
+          image-resolution: 10;
+      }
+  
+      .container-restaurant{
+        background-color: rgb(255, 255, 255, 0.68);   
+        margin: 10px;
+        border-radius: 30px;
+      }
+  
+      .restaurant-info{
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-bottom: 15px;
+      }
+  
+      .container-pizzas{
+        margin: auto;
+        height: auto;
+        width: auto;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #deffcbda;
+        border-radius: 30px;
+      }
+  
+      .table-esp{
+        width: 800px;
+        align-self: center;
+        margin: auto;
+        margin-top: 30px;
+        background-color: #ffffff;
+      }
+  
+      .precio-subtotal{
+        margin: 15px auto;
+        width: 150px;
+        background-color: rgb(226, 225, 225);
+        text-align: center;
+      }
+  
+      .restaurant-carta{
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+  
+      .container-carrito{
+        margin: auto;
+        text-align: left;
+        height: auto;
+        width: auto;
+        padding-top: 12px;
+        background-color: #000000bc;
+        border-radius: 30px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+  
+    label{
+      color: white;
+      text-align: left;
     }
-    .control-group {
-      margin-bottom: 10px;
-    }
-      
-    input {
-      text-align: center;
-      background-color: #ECF0F1;
-      border: 2px solid transparent;
-      border-radius: 3px;
-      font-size: 16px;
-      font-weight: 200;
-      padding: 10px 0;
-      width: 250px;
-      transition: border .5s;
-    }
-      
-    input:focus {
-      border: 2px solid #3498DB;
-      box-shadow: none;
-    }
-
-    .titulo{
+    .titulo-seccion{
       text-align: left;
       margin: 20px;
     }
-
-    .menu-screen {
-    margin: 20px auto;
-    width: 300px;
-    }
-    .categoria-title {
-      background-color: rgb(255, 255, 255);
-      padding: 15px;
-      border-radius: 5px;
-    }
-   
-    .app-title {
-    text-align: center;
-    color: #777;
-    }
-   
-    .plato-info {
-    text-align: center;
-    }
-   
-
-    .btn{
-      background-color: #adf480;
-      color: #ffffff;
-      border-color: #adf480;
+  
+    .seccion-carrito{
+      text-align: left;
+      color: white;
     }
 
-    .btnagr {
-      border: 2px solid transparent;
-      background: #adf480;
-      color: #ffffff;
-      font-size: 16px;
-      line-height: 25px;
-      padding: 10px 0;
-      text-decoration: none;
-      text-shadow: none;
-      border-radius: 3px;
-      box-shadow: none;
-      transition: 0.25s;
-      display: block;
-      width: 250px;
-      margin: 3px auto ;
-    }
-   
-    .btn:hover , .btnagr:hover {
-      background-color: #81f151;
-      border-color: #81f151;
-    }
-   
-    .password-link {
-      font-size: 12px;
-      color: #444;
-      display: block;
-      margin-top: 12px;
-    }
- 
-    img{
-        float: center;
-        width: 150px;
-        height: 150px;
-        image-resolution: 10;
-    }
-
-    .container-carrito{
-      height: 900px;
-      padding-top: 12px;
-      width: 700px;
-      background-color: #ffffff33;
-      margin: auto;
-
-    }
-
-    .container-pizzas{
-      height: 900px;
-      padding-top: 12px;
-      background-color: #dfffcc;
-
-    }
-
-    .table-esp{
-      width: 500px;
-      align-self: center;
-      margin: auto;
-      margin-top: 30px;
-      background-color: #ffffff;
-
-    }
